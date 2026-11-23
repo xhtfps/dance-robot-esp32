@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+*.pdf  binary
+*.zip  binary
+*.png  binary
+*.jpg  binary
+*.mp3  binary
+*.wav  binary
+*.bin  binary
+*.elf  binary
+*.hex  binary
+*.a    binary
+*.obj  binary
+*.so   binary
