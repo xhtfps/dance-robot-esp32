@@ -1,0 +1,39 @@
+menu "Robot vision"
+
+config POSE_TEAM_ID
+    int "Local visual action set (fixed to Team 1)"
+    range 1 1
+    default 1
+
+config POSE_STABLE_FRAMES
+    int "Stable frames"
+    range 1 8
+    default 4
+
+config POSE_PERIPHERAL_SELF_TEST
+    bool "Run audio peripheral self-test"
+    default y
+    help
+        Play a short test tone and sample the microphone at boot.
+
+config POSE_WIFI_SSID
+    string "Router Wi-Fi SSID"
+    default ""
+    help
+        Optional router SSID. The ESP32 also provides its own access point.
+
+config POSE_WIFI_PASSWORD
+    string "Router Wi-Fi password"
+    default ""
+    help
+        Optional router password.
+
+config POSE_WIFI_AP_SSID
+    string "ESP32 access point SSID"
+    default "ESP32-Pose"
+
+config POSE_WIFI_AP_PASSWORD
+    string "ESP32 access point password"
+    default "12345678"
+
+endmenu

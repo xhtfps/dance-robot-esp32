@@ -1,0 +1,2 @@
+source D:/robot/ESP32/build_verify/bootloader/gdbinit/symbols
+source D:/robot/ESP32/build_verify/bootloader/gdbinit/connect
